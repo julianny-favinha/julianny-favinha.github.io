@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About
+title: Contact
 featured-image: images/pic13.jpg
 ---
 
