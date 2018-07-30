@@ -8,12 +8,12 @@
 # Site settings
 title: Julianny
 email: julianny.favinha@gmail.com
-description: The Jekyll version of the Phantom theme by HTML5 UP.
+description: Add description here.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site
 
 # Logo settings
-logo-image-url: images/logo.svg
+logo-image-url:
 font-awesome-icon-logo:
 
 # Social settings
