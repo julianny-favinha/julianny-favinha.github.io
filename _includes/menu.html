@@ -6,6 +6,8 @@
 		{% if page.path == "index.html" %}
 		<li><a href="{{ page.url | prepend: site.baseurl | remove: "index.html" }}">{{ page.title }}</a></li>
 		{% endif %} {% endfor %}
+				
+		<li><a href="/">Home</a></li>
 
 		{% for page in site.pages %}
 
