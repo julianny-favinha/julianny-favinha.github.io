@@ -23,20 +23,9 @@
 			<!-- Nav -->
 			<nav>
 				<ul>
-					<li><a href="#menu">Menu</a></li>
+					<!-- <li><a href="#menu">Menu</a></li> -->
 
-					{% for page in site.pages %}
-					{% if page.path == "index.html" %}
-					<li><a href="{{ page.url | prepend: site.baseurl | remove: "index.html" }}">{{ page.title }}</a></li>
-					{% endif %} {% endfor %}
-				
-					<li><a href="/">Home</a></li>
 
-					{% for page in site.pages %}
-
-					{% if page.title %}
-
-					<li><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title | remove: "Home" }}</a></li>
 				</ul>
 			</nav>
 
