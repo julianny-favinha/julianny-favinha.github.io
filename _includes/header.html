@@ -23,8 +23,13 @@
 			<!-- Nav -->
 			<nav>
 				<ul>
-					<li><a href="#menu">Menu</a></li>
-					<li>OMG</li>
+					<li><a href="/">Home</a></li>
+
+					{% for page in site.pages %}
+
+					{% if page.title %}
+
+					<li><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title | remove: "Home" }}</a></li>
 				</ul>
 			</nav>
 
