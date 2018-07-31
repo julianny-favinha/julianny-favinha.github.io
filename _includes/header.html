@@ -1,6 +1,12 @@
 <!-- Wrapper -->
 <div id="wrapper">
 
+	<style>
+		ul#menu li {
+   			 display:inline;
+		}
+	</style>
+
 	<header id="header" style="background-color:lightblue">
 		<div class="inner">
 
@@ -22,9 +28,15 @@
 			</a> -->
 			<!-- Nav -->
 			<nav>
-				<ul>
+				<ul id="menu">
 					<!-- <li><a href="#menu">Menu</a></li> -->
+					{% for page in site.pages %}
 
+					{% if page.title %}
+
+					<li><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title | remove: "Home" }}</a></li>
+
+					{% endif %} {% endfor %}
 
 				</ul>
 			</nav>
