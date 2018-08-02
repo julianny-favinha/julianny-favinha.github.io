@@ -29,7 +29,7 @@
 				@include vendor('transition', 'transform #{$duration} #{$ease}');
 				position: relative;
 				display: block;
-				width: 100%;
+				width: 80%;
 				border-radius: _size(border-radius);
 				overflow: hidden;
 
