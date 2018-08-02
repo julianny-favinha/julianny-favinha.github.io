@@ -2,7 +2,7 @@
 layout: default
 title:  "Guia Certo"
 date:   2018-08-02 12:00:00 -0400
-categories: bandex app
+categories: guiacerto app
 featured-image: post2_guiacerto.png
 ---
 
