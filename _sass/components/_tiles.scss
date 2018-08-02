@@ -22,7 +22,7 @@
 				'opacity #{$duration} #{$ease}'
 			));
 			position: relative;
-			width: calc(#{(100% / 3)} - #{$gutter * 1});
+			width: calc(#{(80% / 3)} - #{$gutter * 1});
 			margin: $gutter 0 0 $gutter;
 
 			> .image {
@@ -115,7 +115,7 @@
 						'max-height #{$duration} #{$ease}',
 						'opacity #{$duration} #{$ease}'
 					));
-					width: 100%;
+					width: 80%;
 					max-height: 0;
 					line-height: 1.5;
 					margin-top: 0.35em;
@@ -212,7 +212,7 @@
 			margin: ($gutter * -1) 0 0 ($gutter * -1);
 
 			article {
-				width: calc(#{(100% / 3)} - #{$gutter * 1});
+				width: calc(#{(80% / 3)} - #{$gutter * 1});
 				margin: $gutter 0 0 $gutter;
 			}
 		}
@@ -223,7 +223,7 @@
 			margin: ($gutter * -1) 0 0 ($gutter * -1);
 
 			article {
-				width: calc(#{(100% / 2)} - #{$gutter * 1});
+				width: calc(#{(80% / 2)} - #{$gutter * 1});
 				margin: $gutter 0 0 $gutter;
 			}
 		}
@@ -234,7 +234,7 @@
 			margin: ($gutter * -1) 0 0 ($gutter * -1);
 
 			article {
-				width: calc(#{(100% / 2)} - #{$gutter * 1});
+				width: calc(#{(80% / 2)} - #{$gutter * 1});
 				margin: $gutter 0 0 $gutter;
 
 				&:hover {
@@ -251,7 +251,7 @@
 			margin: 0;
 
 			article {
-				width: 100%;
+				width: 80%;
 				margin: $gutter 0 0 0;
 			}
 		}
