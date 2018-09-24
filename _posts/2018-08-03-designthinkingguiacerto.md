@@ -15,7 +15,7 @@ How to improve the experience of travelers who want to find tours that are ideal
 
 To explore the problem and answer a lot of questions, we used the Design Thinking.
 
-<img src="https://github.com/julianny-favinha/julianny-favinha.github.io/raw/master/images/designthinking/design_thinking_cycle.png" style="width: 300px"><br><br>
+<img src="https://github.com/julianny-favinha/julianny-favinha.github.io/raw/master/images/designthinking/design_thinking_cycle.png" style="width: 400px"><br><br>
 
 We talked to travelers and tour guides and in this process we discovered several difficulties that they face. We've come up with a number of ideas on how to solve the problems we've encountered and create prototype solutions. We tested the created prototypes and implement their functionalities.
 
