@@ -28,6 +28,6 @@ The best way to avoid unforeseen travel is to get the help of a professional gui
 In the process to develop the application, we find the site <a href="http://dados.gov.br">dados.gov.br</a>, which has the data of all the tourist guides registered in Brazil. That way, we have created a consistent database where the tour guide only increases your profile with other relevant information and adds your tours.
 
 
-Guia Certo available on the App Store, you can download it:
+Guia Certo is available on the App Store, you can download it:
 
 <a href="https://itunes.apple.com/br/app/guia-certo/id1322027177?mt=8"><img src="https://github.com/julianny-favinha/julianny-favinha.github.io/raw/master/images/download_app_store.png"></a>
