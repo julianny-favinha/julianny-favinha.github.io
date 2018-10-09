@@ -2,7 +2,7 @@
 layout: default
 title:  "Receitas da vovó"
 date:   2018-09-25 11:00:00 -0400
-categories: receitas grandma family cooking traditional app
+categories: receitas grandma
 featured-image: post4_receitasdavovo.png
 ---
 
